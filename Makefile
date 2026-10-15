@@ -32,3 +32,8 @@ clean:
 # Build mkdir
 ${BUILD_DIR}:
 	mkdir -p $@
+
+# Include flow makefiles
+include tool-genus.mk
+include tool-dc.mk
+include tool-formal.mk
